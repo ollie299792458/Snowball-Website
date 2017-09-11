@@ -30,12 +30,12 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
     
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="title">
+    <div class="w3-container w3-content w3-center w3-padding-16" style="max-width:800px" id="title">
     <h1 class="w3-wide">Selwyn Snowball</h2>
     </div>
     
     <!-- About -->
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <div class="w3-container w3-content w3-center w3-padding-bottom" style="max-width:800px" id="about">
     <p class="w3-opacity"><i>The only annual Winter Ball at The University Of Cambridge</i><br><br>
     Every year, Selwyn College
     is transformed into a magical venue, bursting with musical performances, riveting activities, and
@@ -46,44 +46,60 @@ body {font-family: "Lato", sans-serif}
     </div>
     
     <!--Gallery-->
-    <div class="w3-display-container w3-center" style="width:100%" id="gallery-id">
+    <div class="w3-center w3-padding-32">
     <h2 class="w3">Gallery</h2>
-    <img class="Gallery" src="images/slides/1.jpeg" id="slideshow1-super-landscape">
-    <img class="Gallery" src="images/slides/2.jpeg" id="slideshow2-portrait">
-    <img class="Gallery" src="images/slides/3.jpeg" id="slideshow3-portrait">
-    <img class="Gallery" src="images/slides/4.jpeg" id="slideshow1-portrait">
-    <img class="Gallery" src="images/slides/5.jpeg" id="slideshow1-portrait">
-    <img class="Gallery" src="images/slides/6.jpeg" id="slideshow6-landscape">
+    <div class="w3-display-container w3-panel w3-black w3-center" style="width:100%;height:90vh" id="gallery-id">
+    <div class="Gallery">
+    <img class="w3-display-middle" src="images/slides/1.jpeg" style="max-height:80vh;max-width:100%" id="slideshow2-portrait">
+    </div>
+    <div class="Gallery" style="height:70vh">
+    <img class="w3-display-middle" src="images/slides/2.jpeg" style="max-height:80vh;max-width:100%" id="slideshow2-portrait">
+    </div>
+    <div class="Gallery" style="height:70vh">
+    <img class="w3-display-middle" src="images/slides/3.jpeg" style="max-height:80vh;max-width:100%" id="slideshow2-portrait">
+    </div>
+    <div class="Gallery" style="height:70vh">
+    <img class="w3-display-middle" src="images/slides/4.jpeg" style="max-height:80vh;max-width:100%" id="slideshow2-portrait">
+    </div>
+    <div class="Gallery" style="height:70vh">
+    <img class="w3-display-middle" src="images/slides/5.jpeg" style="max-height:80vh;max-width:100%" id="slideshow2-portrait">
+    </div>
+    <div class="Gallery" style="height:70vh">
+    <img class="w3-display-middle" src="images/slides/6.jpeg" style="max-height:70vh;max-width:100%" id="slideshow2-portrait">
+    </div>
     <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
     <button class="w3-button w3-black w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
     <!--see script at bottom-->
     </div>
+    </div>
     
     <!--Tickets-->
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="committee">
+    <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="tickets">
     <h2 class="w3">Tickets</h2>
     <p> Tickets will be released in due course.</p>
+    </div>
     
     <!--Work-->
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="committee">
+    <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="work">
     <h2 class="w3">Work</h2>
     <p> Every year Snowball recruits dozens of workers, to ensure the event runs as smoothly as possible. 
     We are looking for all types of workers, from security personnel to bar staff. For the first time ever, 
     we will also be recruiting several Area Managers, to help the Committee during the night. 
     Information on these roles and the application process will be released in due course.</p>
+    </div>
     
     <!--Committee-->
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="committee">
+    <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="committee">
     <h2 class="w3">Committee</h2>
     <p class="w3-center">
-    <div class="w3-row w3-padding-64">
-      <div class="w3-half">
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col l6">
         <p><b>Oliver Wood</b></p>
         <p><em>Co-President</em></p>
         <a href="mailto:president@selwynsnowball.co.uk">
         <p>president@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-half">
+      <div class="w3-col l6">
         <p><b>Matt Wilson</b></p>
         <p><em>Co-President</em></p>
         <a href="mailto:president@selwynsnowball.co.uk">
@@ -91,13 +107,13 @@ body {font-family: "Lato", sans-serif}
       </div>
     </div>
     <div class="w3-row w3-padding-32">
-      <div class="w3-half">
+      <div class="w3-col l6">
         <p><b>Nick Harrison</b></p>
         <p><em>Treasurer</em></p>
         <a href="mailto:treasurer@selwynsnowball.co.uk">
         <p>treasurer@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-half">
+      <div class="w3-col l6">
         <p><b>Karolina Prylinska</b></p>
         <p><em>Vice President</em></p>
         <a href="mailto:vp@selwynsnowball.co.uk">
@@ -105,19 +121,19 @@ body {font-family: "Lato", sans-serif}
       </div>
     </div>
     <div class="w3-row w3-padding-32">
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Katie Archibald</b></p>
         <p><em>Decorations</em></p>
         <a href="mailto:decs@selwynsnowball.co.uk">
         <p>decs@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Charlotte Benham</b></p>
         <p><em>Decorations</em></p>
         <a href="mailto:decs@selwynsnowball.co.uk">
         <p>decs@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Max Quastel</b></p>
         <p><em>Drinks</em></p>
         <a href="mailto:drinks@selwynsnowball.co.uk">
@@ -125,19 +141,19 @@ body {font-family: "Lato", sans-serif}
       </div>
     </div>
     <div class="w3-row w3-padding-32">
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Ruby Douglass</b></p>
         <p><em>Graphics</em></p>
         <a href="mailto:graphics@selwynsnowball.co.uk">
         <p>graphics@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Tom Cranston</b></p>
         <p><em>Food</em></p>
         <a href="mailto:food@selwynsnowball.co.uk">
         <p>food@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Kenneth McHardy</b></p>
         <p><em>Logistics</em></p>
         <a href="mailto:logistics@selwynsnowball.co.uk">
@@ -145,19 +161,19 @@ body {font-family: "Lato", sans-serif}
       </div>
     </div>
     <div class="w3-row w3-padding-32">
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Rose McLelland</b></p>
         <p><em>Music Ents</em></p>
         <a href="mailto:musicents@selwynsnowball.co.uk">
         <p>musicents@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Clarissa Wei</b></p>
         <p><em>Personnel</em></p>
         <a href="mailto:personnel@selwynsnowball.co.uk">
         <p>personnel@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Maria Wan</b></p>
         <p><em>Personnel</em></p>
         <a href="mailto:personnel@selwynsnowball.co.uk">
@@ -165,19 +181,19 @@ body {font-family: "Lato", sans-serif}
       </div>
     </div>
     <div class="w3-row w3-padding-32">
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Abigail Thellusson</b></p>
         <p><em>Production</em></p>
         <a href="mailto:production@selwynsnowball.co.uk">
         <p>production@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Estelle Greenwood</b></p>
         <p><em>Security</em></p>
         <a href="mailto:security@selwynsnowball.co.uk">
         <p>security@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-third">
+      <div class="w3-col l4">
         <p><b>Sarah Taylor</b></p>
         <p><em>Static Ents</em></p>
         <a href="mailto:staticents@selwynsnowball.co.uk">
@@ -185,13 +201,13 @@ body {font-family: "Lato", sans-serif}
       </div>
     </div>
     <div class="w3-row w3-padding-32">
-      <div class="w3-half">
+      <div class="w3-col l6">
         <p><b>Matthew Boyce</b></p>
         <p><em>Ticketing</em></p>
         <a href="mailto:ticketing@selwynsnowball.co.uk">
         <p>ticketing@selwynsnowball.co.uk</p></a> 
       </div>
-      <div class="w3-half">
+      <div class="w3-col l6">
         <p><b>Oliver Black</b></p>
         <p><em>Web Design</em></p>
         <a href="mailto:webdesign@selwynsnowball.co.uk">
@@ -201,8 +217,30 @@ body {font-family: "Lato", sans-serif}
     </div>
     
     <!--Previous Snowballs, poster next to text, to add-->
+    <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="previous_snowballs">
+    <h2 class="w3">Previous Snowballs</h2><br>
+    <div class="w3-row w3-padding-32">
+        <div class="w3-col l4 m6">
+        <img class="w3-card-4 w3-image" src="images/2016_poster.jpg" height="500" width="250"/>
+        </div>
+        <div class="w3-col l8 m6">
+        <p class="w3-left-align w3-margin-left w3-cell-middle">
+        The 2016 Snowball was truly the best ever. Over 850 guests enjoyed a spectacular evening of unlimited drinks 
+        and unforgettable entertainment. Under the theme of “Aurora: A Phenomenal Journey” the College was 
+        transformed into a spectacular selection of natural phenomena. Tinchy Stryder played an incredible headline 
+        set, whilst the VR Experience, Silent Disco and dry-ice cocktails all proved extremely popular.
+        </p>
+    </div>
+    </div>
+    </div>
     
     <!--Sponsors, lydia-->
+    <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="sponsors">
+    <h2 class="w3">Sponsors</h2><br>
+    <a href="https://lydia-app.com/" target="_blank">
+    <img class="w3-image" src="images/lydia_logo.png" height="150" width="250"/>
+    </a>
+    </div>
   
 <!-- End Page Content -->
 
@@ -235,8 +273,8 @@ body {font-family: "Lato", sans-serif}
             x[i].style.display = "none"; 
         }
         x[slideIndex-1].style.display = "block"; 
-        var height = (document.documentElement.clientWidth*566/1280);
-        x[slideIndex-1].height = height+"px";
+        //var height = (document.documentElement.clientWidth*566/1280);
+        //x[slideIndex-1].style.height = height+"px";
     }
 </script>
 
